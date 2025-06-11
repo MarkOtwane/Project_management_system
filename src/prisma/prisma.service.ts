@@ -6,7 +6,7 @@ export class PrismaService extends PrismaClient implements OnModuleInit {
   async onModuleInit() {
     // eslint-disable-next-line @typescript-eslint/no-unsafe-call
     await this.$connect();
-    console.log('Connected to the database via prisma');
+    console.log('Connected to the database via Prisma');
   }
 
   async OnModuleDestroy() {
